@@ -1,0 +1,17 @@
+# Test directories
+my-test-app/
+test-project/
+
+# Git
+.gitignore
+.git/
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

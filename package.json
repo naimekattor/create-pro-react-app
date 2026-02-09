@@ -1,0 +1,56 @@
+{
+  "name": "@naimdev/create-pro-react-app",
+  "version": "1.0.3",
+  "description": "A professional React starter kit with Vite, TypeScript, Tailwind CSS, routing, and dashboard layout",
+  "main": "index.js",
+  "bin": {
+    "create-pro-react-app": "bin/cli.js",
+    "create-pro-react": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "template/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo 'Preparing to publish...'"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "boilerplate",
+    "vite",
+    "typescript",
+    "tailwind",
+    "dashboard",
+    "routing",
+    "template",
+    "cli"
+  ],
+  "author": "Naimur Rahman Naim <naimekattor@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/naimekattor/create-pro-react-app#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naimekattor/create-pro-react-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naimekattor/create-pro-react-app/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.5"
+  },
+  "peerDependencies": {
+    "npm": ">=6.0.0"
+  }
+}
