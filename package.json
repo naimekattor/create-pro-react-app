@@ -1,6 +1,6 @@
 {
   "name": "@naimdev/create-pro-react-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A professional React starter kit with Vite, TypeScript, Tailwind CSS, routing, and dashboard layout",
   "main": "index.js",
   "bin": {
